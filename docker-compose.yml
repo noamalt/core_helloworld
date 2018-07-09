@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  netcore_webtest:
+    image: netcore_webtest
+    build:
+      context: .
+      dockerfile: netcore_webtest\Dockerfile
