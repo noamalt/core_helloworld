@@ -52,6 +52,8 @@ namespace netcore_webtest
                 routes.MapSpaFallbackRoute(
                     name: "spa-fallback",
                     defaults: new { controller = "Home", action = "Index" });
+
+
             });
         }
     }
